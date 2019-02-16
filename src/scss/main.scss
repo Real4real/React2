@@ -1,0 +1,27 @@
+@import "./typography/typography";
+@import "./textfield/textfield";
+@import "./list/list";
+@import "./button/button";
+.imgIcon2 {
+  //background: red;
+  width: 25px;
+  fill: $input-text-error-color;
+}
+.done {
+  text-decoration: line-through;
+}
+.important {
+  font-weight: bold;
+  color: $input-text-error-color;
+}
+.imgIcon3 {
+  margin: 0 0 0px 0;
+}
+#root {
+  width: 500px;
+
+  .mdl-list__item-primary-content {
+    //color: $input-text-error-color;
+
+  }
+}
