@@ -3,7 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const devMode = process.env.NODE_ENV;
 const conf = {
-  entry: ["./src/index.js"],
+  entry: ['babel-regenerator-runtime', './src/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
